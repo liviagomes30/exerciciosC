@@ -21,12 +21,12 @@ int main()
     printf("Digite a posicao do valor que deseja retirar: \n");
     scanf("%d", &num);
 
-    for (i = num; i < TL; i++)
+    for (i = num; i < TL - 1; i++)
     {
         vet[i] = vet[i + 1];
     }
 
-    for (i = 0; i < TL-1; i++)
+    for (i = 0; i < TL - 1; i++)
     {
         printf("%d ", vet[i]);
     }
