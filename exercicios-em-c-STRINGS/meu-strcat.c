@@ -1,7 +1,9 @@
+// strcat
+
 #include <stdio.h>
 
 int main(){
-  char nome[15], sobrenome[15];
+  char nome[30], sobrenome[15];
   int i = 0, j = 0;
 
   printf("Digite o primeiro nome: ");

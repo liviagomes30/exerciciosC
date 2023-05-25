@@ -1,3 +1,5 @@
+// STRUPR
+
 #include <stdio.h>
 
 int main(){
